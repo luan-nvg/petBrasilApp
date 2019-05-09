@@ -1,0 +1,1 @@
+Proporcionar uma relação entre donos de pets e pessoas físicas e jurídicas que fornecem serviços do ramo, transmitindo conforto e confiança para o desenvolvimento dessa relação, assim como o uso dos serviços. Permitindo também uma ótima experiências para os pets.
