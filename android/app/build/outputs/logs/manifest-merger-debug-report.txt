@@ -45,9 +45,9 @@ INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidMan
 INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:2:3-23
+		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:2:3-26
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:2:3-23
+		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:2:3-26
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml
@@ -103,7 +103,7 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] /home/luan/.gradle/caches/tra
 	android:name
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:7:7-38
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:7:7-38
-activity#com.nubank.MainActivity
+activity#com.petbrasil.MainActivity
 ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:15:9-41
