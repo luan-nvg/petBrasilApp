@@ -30,19 +30,19 @@ export default function Tabs({ translateY }) {
         </TabItem>
         <TabItem>
           <Icon name="chat-bubble-outline" size={24} color="#FFF" />
-          <TabText>Cobrar</TabText>
+          <TabText>Meus Pets</TabText>
         </TabItem>
         <TabItem>
           <Icon name="arrow-downward" size={24} color="#FFF" />
-          <TabText>Depositar</TabText>
+          <TabText>Configurações</TabText>
         </TabItem>
         <TabItem>
           <Icon name="arrow-upward" size={24} color="#FFF" />
-          <TabText>Transferir</TabText>
+          <TabText>Informações</TabText>
         </TabItem>
         <TabItem>
           <Icon name="lock" size={24} color="#FFF" />
-          <TabText>Bloquear cartão</TabText>
+          <TabText>Meus Campos</TabText>
         </TabItem>
       </TabsContainer>
     </Container>

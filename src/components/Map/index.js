@@ -21,19 +21,19 @@ import {
   LocationTimeTextSmall
 } from "./styles";
 
-Geocoder.init("AIzaSyB1O8amubeMkw_7ok2jUhtVj9IkME9K8sc");
+Geocoder.init("AIzaSyCwNWtMCGs5OBs0Ymvdd0J8Tjhm79WSpA0");
 
 export default class Map extends Component {
   state = {
     region: null,
     destination: null,
     duration: null,
-    location: null
+    location: []
   };
 
   async componentDidMount() {
     navigator.geolocation.getCurrentPosition(
-      async ({ coords: { latitude, longitude } }) => {
+      async ({ coords: {latitude, longitude } }) => {
         const response = await Geocoder.from({ latitude, longitude });
         const address = response.results[0].formatted_address;
         const location = address.substring(0, address.indexOf(","));
@@ -41,8 +41,8 @@ export default class Map extends Component {
         this.setState({
           location,
           region: {
-            latitude,
-            longitude,
+            latitude : 0,
+            longitude: 0,
             latitudeDelta: 0.0143,
             longitudeDelta: 0.0134
           }
