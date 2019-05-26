@@ -86,7 +86,7 @@ export default class Map extends Component {
 
   render() {
     const { region, destination, duration, location } = this.state;
-
+    let opened =  destination.latitude ? true :false;
     return (
       <View style={{ flex: 1 }}>
         <MapView
@@ -96,7 +96,7 @@ export default class Map extends Component {
           loadingEnabled
           ref={el => (this.mapView = el)}
         >
-          {destination.latitude && (
+          {opened && (
             <Fragment>
               <Directions
                 origin={region}
@@ -137,7 +137,7 @@ export default class Map extends Component {
           )}
         </MapView>
 
-        {destination.latitude ? (
+        {opened ? (
           <Fragment>
             <Back onPress={this.handleBack}>
               <Image source={backImage} />
