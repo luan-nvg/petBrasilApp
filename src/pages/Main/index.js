@@ -7,7 +7,7 @@ import { PanGestureHandler, State } from 'react-native-gesture-handler';
 import Header from '~/components/Header';
 import Tabs from '~/components/Tabs';
 import Menu from '~/components/Menu';
-import Map from "../../components/Map";
+import Map from "~/components/Map";
 
 
 import {

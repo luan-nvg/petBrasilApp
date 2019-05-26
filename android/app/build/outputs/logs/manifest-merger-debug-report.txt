@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-33:12
+ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-32:12
 MERGED from [:react-native-vector-icons] /home/luan/workProjects/petbrasil/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-maps] /home/luan/workProjects/petbrasil/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-gesture-handler] /home/luan/workProjects/petbrasil/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -59,13 +59,13 @@ INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidMan
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-32:12
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:1-32:12
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -88,9 +88,9 @@ ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifes
 	android:name
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:8:5-31:19
-MERGED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:8:5-31:19
-MERGED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:8:5-31:19
+ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:8:5-30:19
+MERGED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:8:5-30:19
+MERGED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:8:5-30:19
 MERGED from [com.facebook.react:react-native:0.59.8] /home/luan/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/ffdeb971523c916e3af74f598ec43a88/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.59.8] /home/luan/.gradle/caches/transforms-1/files-1.1/react-native-0.59.8.aar/ffdeb971523c916e3af74f598ec43a88/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/luan/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/978dfaf254c4d1c6505a4a27125dca6e/AndroidManifest.xml:30:5-36:19
@@ -140,7 +140,7 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] /home/luan/.gradle/caches/tra
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:9:7-38
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:9:7-38
 activity#com.petbrasil.MainActivity
-ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:15:7-24:18
+ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:15:7-25:18
 	android:label
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:17:9-41
 	android:windowSoftInputMode
@@ -160,7 +160,7 @@ ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifes
 	android:name
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:22:23-70
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:26:8-28:71
+ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:26:14-28:71
 	android:value
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:28:13-68
 	android:name

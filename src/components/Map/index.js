@@ -25,9 +25,9 @@ Geocoder.init("AIzaSyCwNWtMCGs5OBs0Ymvdd0J8Tjhm79WSpA0");
 
 export default class Map extends Component {
   state = {
-    region: null,
-    destination: null,
-    duration: null,
+    region: 0,
+    destination: 0,
+    duration: 0,
     location: []
   };
 

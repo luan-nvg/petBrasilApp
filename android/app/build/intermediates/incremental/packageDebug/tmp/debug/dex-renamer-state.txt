@@ -1,4 +1,4 @@
-#Fri May 17 05:17:28 BRT 2019
+#Sun May 26 08:26:27 BRT 2019
 base.0=/home/luan/workProjects/petbrasil/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
