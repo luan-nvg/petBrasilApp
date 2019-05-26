@@ -25,8 +25,17 @@ Geocoder.init("AIzaSyCwNWtMCGs5OBs0Ymvdd0J8Tjhm79WSpA0");
 
 export default class Map extends Component {
   state = {
-    region: 0,
-    destination: 0,
+    region:{
+      latitude : 0,
+      longitude: 0,
+      latitudeDelta: 0,
+      longitudeDelta: 0
+    },
+    destination: {
+      latitude: 0,
+      longitude: 0,
+      title: 'dsadasdas'
+    },
     duration: 0,
     location: []
   };
@@ -87,7 +96,7 @@ export default class Map extends Component {
           loadingEnabled
           ref={el => (this.mapView = el)}
         >
-          {destination && (
+          {destination.latitude && (
             <Fragment>
               <Directions
                 origin={region}
@@ -128,7 +137,7 @@ export default class Map extends Component {
           )}
         </MapView>
 
-        {destination ? (
+        {destination.latitude ? (
           <Fragment>
             <Back onPress={this.handleBack}>
               <Image source={backImage} />

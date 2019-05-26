@@ -60,8 +60,8 @@ export default function Main() {
     <Container>
       <Header />
      <Map /> 
-      {/* <Content>
-        <Menu translateY={translateY} />
+     <Content>
+        {/* <Menu translateY={translateY} />
 
         <PanGestureHandler
           onGestureEvent={animatedEvent}
@@ -91,9 +91,9 @@ export default function Main() {
               </Annotation>
             </CardFooter>
           </Card>
-        </PanGestureHandler>
+        </PanGestureHandler> */}
 
-      </Content> */}
+      </Content> 
 
       <Tabs translateY={translateY} />
     </Container>
