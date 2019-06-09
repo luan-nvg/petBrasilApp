@@ -21,7 +21,8 @@ import {
   LocationTimeTextSmall
 } from "./styles";
 
-Geocoder.init("AIzaSyCwNWtMCGs5OBs0Ymvdd0J8Tjhm79WSpA0");
+
+Geocoder.init("AIzaSyChjzTzy5kumIuCEz5O3gaCUmMwiMG3JnI");
 
 export default class Map extends Component {
   state = {
@@ -41,6 +42,8 @@ export default class Map extends Component {
   };
 
   async componentDidMount() {
+    
+    
     navigator.geolocation.getCurrentPosition(
       async ({ coords: {latitude, longitude } }) => {
         const response = await Geocoder.from({ latitude, longitude });
