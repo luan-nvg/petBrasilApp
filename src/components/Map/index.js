@@ -26,8 +26,8 @@ import {
 export default class Map extends Component {
   state = {
     region:{
-      latitude : 99999999999999,
-      longitude: 88888888888888888,
+      latitude : 0,
+      longitude: 0,
       latitudeDelta: 0,
       longitudeDelta: 0
     },
@@ -63,8 +63,8 @@ export default class Map extends Component {
         });
       }, //sucesso
       (e) => {
-       alert(e);
-       alert("ERRO");
+      //  alert(e);
+      //  alert("ERRO");
       }, //erro
       {
         timeout: 5000,
@@ -92,7 +92,12 @@ export default class Map extends Component {
   };
 
   handleBack = () => {
-    this.setState({ destination: null });
+    this.setState({ 
+      destination: {
+        latitude : 0,
+        longitude : 0,
+      },
+     });
   };
 
   render() {
@@ -100,8 +105,6 @@ export default class Map extends Component {
     let opened =  destination.latitude ? true :false;
     console.log(region.latitude);
     console.log(destination.latitude);
-    alert(opened);
-    alert(destination.latitude);
     return (
       <View style={{ flex: 1 }}>
         <MapView
