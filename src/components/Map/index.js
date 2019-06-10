@@ -22,13 +22,12 @@ import {
 } from "./styles";
 
 
-Geocoder.init("AIzaSyChjzTzy5kumIuCEz5O3gaCUmMwiMG3JnI");
 
 export default class Map extends Component {
   state = {
     region:{
-      latitude : 0,
-      longitude: 0,
+      latitude : 99999999999999,
+      longitude: 88888888888888888,
       latitudeDelta: 0,
       longitudeDelta: 0
     },
@@ -38,11 +37,14 @@ export default class Map extends Component {
       title: 'dsadasdas'
     },
     duration: 0,
-    location: []
+    location: [],
+    selected: false,
   };
 
   async componentDidMount() {
-    
+  
+
+    Geocoder.init("AIzaSyChjzTzy5kumIuCEz5O3gaCUmMwiMG3JnI");
     
     navigator.geolocation.getCurrentPosition(
       async ({ coords: {latitude, longitude } }) => {
@@ -53,23 +55,27 @@ export default class Map extends Component {
         this.setState({
           location,
           region: {
-            latitude : 0,
-            longitude: 0,
+            latitude : latitude,
+            longitude: longitude,
             latitudeDelta: 0.0143,
             longitudeDelta: 0.0134
           }
         });
       }, //sucesso
-      () => {}, //erro
+      (e) => {
+       alert(e);
+       alert("ERRO");
+      }, //erro
       {
-        timeout: 2000,
-        enableHighAccuracy: true,
+        timeout: 5000,
+     //   enableHighAccuracy: true,
         maximumAge: 1000
       }
     );
   }
 
   handleLocationSelected = (data, { geometry }) => {
+    
     const {
       location: { lat: latitude, lng: longitude }
     } = geometry;
@@ -79,8 +85,10 @@ export default class Map extends Component {
         latitude,
         longitude,
         title: data.structured_formatting.main_text
-      }
+      },
+      selected : true
     });
+
   };
 
   handleBack = () => {
@@ -90,6 +98,10 @@ export default class Map extends Component {
   render() {
     const { region, destination, duration, location } = this.state;
     let opened =  destination.latitude ? true :false;
+    console.log(region.latitude);
+    console.log(destination.latitude);
+    alert(opened);
+    alert(destination.latitude);
     return (
       <View style={{ flex: 1 }}>
         <MapView
@@ -99,7 +111,7 @@ export default class Map extends Component {
           loadingEnabled
           ref={el => (this.mapView = el)}
         >
-          {opened && (
+          {this.state.selected ? (
             <Fragment>
               <Directions
                 origin={region}
@@ -137,7 +149,7 @@ export default class Map extends Component {
                 </LocationBox>
               </Marker>
             </Fragment>
-          )}
+          ): console.log("oi")}
         </MapView>
 
         {opened ? (
@@ -145,7 +157,7 @@ export default class Map extends Component {
             <Back onPress={this.handleBack}>
               <Image source={backImage} />
             </Back>
-            <Details />
+            {/* <Details /> */}
           </Fragment>
         ) : (
           <Search onLocationSelected={this.handleLocationSelected} />

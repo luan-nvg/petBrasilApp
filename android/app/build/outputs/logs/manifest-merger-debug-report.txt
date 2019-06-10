@@ -87,6 +87,12 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:7:3-79
+MERGED from [:react-native-maps] /home/luan/workProjects/petbrasil/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] /home/luan/workProjects/petbrasil/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:7:20-76
 application
 ADDED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:8:5-30:19
 MERGED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml:8:5-30:19
@@ -271,10 +277,6 @@ INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidMan
 	android:minSdkVersion
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/luan/workProjects/petbrasil/android/app/src/debug/AndroidManifest.xml
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:react-native-maps] /home/luan/workProjects/petbrasil/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
-	android:name
-		ADDED from [:react-native-maps] /home/luan/workProjects/petbrasil/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/luan/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/978dfaf254c4d1c6505a4a27125dca6e/AndroidManifest.xml:23:5-79
 	android:name
