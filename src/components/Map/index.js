@@ -38,7 +38,7 @@ export default class Map extends Component {
     },
     duration: 0,
     location: [],
-    selected: false,
+    selectedDestination: false,
   };
 
   async componentDidMount() {
@@ -86,7 +86,7 @@ export default class Map extends Component {
         longitude,
         title: data.structured_formatting.main_text
       },
-      selected : true
+      selectedDestination : true
     });
 
   };
@@ -96,6 +96,7 @@ export default class Map extends Component {
       destination: {
         latitude : 0,
         longitude : 0,
+        title: data.structured_formatting.main_text
       },
      });
   };
@@ -114,7 +115,7 @@ export default class Map extends Component {
           loadingEnabled
           ref={el => (this.mapView = el)}
         >
-          {this.state.selected ? (
+          {this.state.selectedDestination ? (
             <Fragment>
               <Directions
                 origin={region}
