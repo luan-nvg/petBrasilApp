@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/luan/workProjects/petbrasil/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/infocast/Projects/petbrasil/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/luan/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a0fb5edb4dd1dd61e1edc791cba7698d/res/values-v16/values-v16.xml",
+                    "source": "/home/infocast/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4d630678cba67032a99771892df59b66/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/luan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1b4ff4dd13eeb462b3304cd0bf581489/res/values-v16/values-v16.xml",
+                    "source": "/home/infocast/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d4328edf41b0aa2d61dd527011cb054d/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

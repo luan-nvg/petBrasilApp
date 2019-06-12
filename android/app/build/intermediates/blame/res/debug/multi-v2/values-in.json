@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/luan/workProjects/petbrasil/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
+            "outputFile": "/home/infocast/Projects/petbrasil/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
             "map": [
                 {
-                    "source": "/home/luan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1b4ff4dd13eeb462b3304cd0bf581489/res/values-in/values-in.xml",
+                    "source": "/home/infocast/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d4328edf41b0aa2d61dd527011cb054d/res/values-in/values-in.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/luan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.1.0.aar/77fa79990742d6edf20db17be1914bed/res/values-in/values.xml",
+                    "source": "/home/infocast/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4d630678cba67032a99771892df59b66/res/values-in/values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5577",
+                        "endColumns": "100",
+                        "endOffsets": "5673"
+                    }
+                },
+                {
+                    "source": "/home/infocast/.gradle/caches/transforms-1/files-1.1/play-services-base-16.1.0.aar/3e4710728da1db24181b39235305ec52/res/values-in/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/luan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/8d2fbe2b8f50647209321f01c1a552f1/res/values-in/values.xml",
+                    "source": "/home/infocast/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/50d9f68669f543d54ffee00d719cab2c/res/values-in/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,23 +69,6 @@
                         "startOffsets": "3967",
                         "endColumns": "190",
                         "endOffsets": "4153"
-                    }
-                },
-                {
-                    "source": "/home/luan/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a0fb5edb4dd1dd61e1edc791cba7698d/res/values-in/values-in.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5577",
-                        "endColumns": "100",
-                        "endOffsets": "5673"
                     }
                 }
             ]

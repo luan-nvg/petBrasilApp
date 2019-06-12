@@ -170,3 +170,8 @@ if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
 fi
 
 exec "$JAVACMD" "$@"
+
+  MYAPP_RELEASE_STORE_FILE=petbrasil-release-key.keystore
+  MYAPP_RELEASE_KEY_ALIAS=my-key-alias
+  MYAPP_RELEASE_STORE_PASSWORD=apkpetbrasil
+  MYAPP_RELEASE_KEY_PASSWORD=apkpetbrasil
