@@ -73,3 +73,5 @@ RNTester / build
 # CocoaPods
 / template / ios / pods /
 / template / ios / Podfile.lock
+
+android/app/build
