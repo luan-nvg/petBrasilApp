@@ -161,7 +161,7 @@ export default class Map extends Component {
             <Back onPress={this.handleBack}>
               <Image source={backImage} />
             </Back>
-            {/* <Details /> */}
+           {this.state.selectedDestination ?  <Details /> : console.log('sem destino') } 
           </Fragment>
         ) : (
           <Search onLocationSelected={this.handleLocationSelected} />
