@@ -2,11 +2,9 @@
 
 import React from 'react';
 import { View, Button, Text } from 'react-native';
-
+import Socket from "~/components/Socket";
 const Page2 = () => (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <Text>About</Text>
-  </View>
+  <Socket />
 );
 
 Page2.navigationOptions = {
