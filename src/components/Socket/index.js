@@ -14,8 +14,20 @@ export default class Socket extends Component {
     });
 
       this.manda("71985439973");
+      this.login();
   }
 
+    login(){
+        let userName = "Lucas"
+        data = {name: userName, userId: this.socket.id};
+        this.emit('setSocketId', data);
+
+    //    this.socket.on('sendNickname', function(username) {
+    //         socket.username = "Luan";
+    //         users.push(socket.username);
+    //         socket.emit('showRooms', rooms);
+    //     });
+    }
    manda (numero) {
     postaData = {
         valor : numero
