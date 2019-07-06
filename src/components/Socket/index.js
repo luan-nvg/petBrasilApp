@@ -6,7 +6,7 @@ export default class Socket extends Component {
     socket = null;
 
   async componentDidMount() {
-    this.socket = SocketIOClient('http://192.168.1.7:3000',{
+    this.socket = SocketIOClient('http://192.168.11.18:3000',{
       'reconnection': true,
        'reconnectionDelay': 500,
 	      'reconnectionAttempts': Infinity, 
@@ -21,12 +21,6 @@ export default class Socket extends Component {
         let userName = "Lucas"
         data = {name: userName, userId: this.socket.id};
         this.emit('setSocketId', data);
-
-    //    this.socket.on('sendNickname', function(username) {
-    //         socket.username = "Luan";
-    //         users.push(socket.username);
-    //         socket.emit('showRooms', rooms);
-    //     });
     }
    manda (numero) {
     postaData = {
