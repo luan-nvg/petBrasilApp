@@ -6,7 +6,7 @@ export default class Socket extends Component {
     socket = null;
 
   async componentDidMount() {
-    this.socket = SocketIOClient('http://192.168.11.18:3000',{
+    this.socket = SocketIOClient('http://192.168.1.5:3000',{
       'reconnection': true,
        'reconnectionDelay': 500,
 	      'reconnectionAttempts': Infinity, 

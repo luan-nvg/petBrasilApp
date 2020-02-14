@@ -8,7 +8,7 @@ const Page2 = () => (
 );
 
 Page2.navigationOptions = {
-  title: 'About',
+  title: 'Ajuda',
 }
 
 
